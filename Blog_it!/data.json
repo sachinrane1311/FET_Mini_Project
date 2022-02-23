@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 1
+    },
+    {
+      "name": "swapnil deokar",
+      "email": "swapnil@gmail.com",
+      "password": "aaaaa",
+      "id": 2
+    },
+    {
+      "name": "sanket sunil zunjakar",
+      "email": "sanketzunjakar1995@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "ajay",
+      "email": "ajay@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "ajay",
+      "email": "devgan",
+      "password": "5555",
+      "id": 5
+    },
+    {
+      "name": "sanket sunil zunjakar",
+      "email": "sanketzunjakar@gmail.com",
+      "password": "8888",
+      "id": 6
+    },
+    {
+      "name": "sanket sunil zunjakar",
+      "email": "sanketzunjakar@gmail.com",
+      "password": "8888",
+      "id": 7
+    },
+    {
+      "name": "sanket sunil zunjakar",
+      "email": "sanketzunjakar1995@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "name": "sameena",
+      "email": "sameena@gmail.com",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhansawant@gmail.com",
+      "password": "1234",
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "category": "FITNESS",
+      "title": "Exercise is key to life",
+      "body": "Physical fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities. Physical fitness is generally achieved through proper nutrition,[1] moderate-vigorous physical exercise,[2] and sufficient rest along with a formal recovery plan.[3]\n\nBefore the Industrial Revolution, fitness was defined as the capacity to carry out the day's activities without undue fatigue or lethargy. However, with automation and changes in lifestyles, physical fitness is now considered a measure of the body's ability to function efficiently and effectively in work and leisure activities, to be healthy, to resist hypokinetic diseases, improve immune system and to meet emergency situations.[",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "category": "LITERATURE",
+      "title": "literature - need of today",
+      "body": "Further information: Outline of literature and Index of literature articles\n\nThe Adventures of Pinocchio (1883) is a canonical piece of children's literature and one of the best-selling books ever published.[1]\nLiterature broadly is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially prose fiction, drama, and poetry.[2] In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed.[3] Literature is a method of recording, preserving, and transmitting knowledge and entertainment, and can also have a social, psychological, spiritual, or political role.",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "category": "Select Category",
+      "title": "tech lead",
+      "AutherName": "samadhan ",
+      "body": "Technology (\"science of craft\", from Greek τέχνη, techne, \"art, skill, cunning of hand\"; and -λογία, -logia[2]) is the sum of any techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation. Technology can be the knowledge of techniques, processes, and the like, or it can be embedded in machines to allow for operation without detailed knowledge of their workings. Systems (e.g. machines) applying technology by taking an input, changing it according to the system's use, and then producing an outcome are referred to as technology systems or technological systems.",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "category": "FOOD",
+      "title": "food- importance",
+      "AutherName": "Samadhan Sawant",
+      "body": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms, often evolved to fill a specific ecological niche within specific geographical contexts.",
+      "likes": 0,
+      "id": 13
+    },
+    {
+      "category": "FOOD",
+      "title": "Healthy Food",
+      "AutherName": "Sameena",
+      "body": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms, often evolved to fill a specific ecological niche within specific geographical contexts.",
+      "likes": 0,
+      "id": 14
+    }
+  ],
+  "blogs": []
+}
