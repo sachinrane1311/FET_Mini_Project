@@ -59,47 +59,429 @@
       "email": "samadhansawant@gmail.com",
       "password": "1234",
       "id": 10
+    },
+    {
+      "name": "sanket",
+      "email": "sanket@gmail.com",
+      "password": "1234",
+      "id": 11
+    },
+    {
+      "name": "sanket",
+      "email": "sanket@gmail.com",
+      "password": "1234",
+      "id": 12
+    },
+    {
+      "name": "sanket",
+      "email": "sanket12@gmail.com",
+      "password": "1234",
+      "id": 13
+    },
+    {
+      "name": "sameer",
+      "email": "sameer@gmail.com",
+      "password": "12345",
+      "id": 14
+    },
+    {
+      "name": "sanket",
+      "email": "sanket1234@gmail.com",
+      "password": "12345",
+      "id": 15
+    },
+    {
+      "name": "sanket",
+      "email": "sanket1234@gmail.com",
+      "password": "12345",
+      "id": 16
+    },
+    {
+      "name": "sach rane",
+      "email": "sachin@gmail.com",
+      "password": "1234",
+      "id": 17
+    },
+    {
+      "name": "vini",
+      "email": "sachin@gmail.com",
+      "password": "1234",
+      "id": 18
+    },
+    {
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "password": "123",
+      "id": 19
     }
   ],
   "posts": [
     {
-      "category": "FITNESS",
-      "title": "Exercise is key to life",
-      "body": "Physical fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities. Physical fitness is generally achieved through proper nutrition,[1] moderate-vigorous physical exercise,[2] and sufficient rest along with a formal recovery plan.[3]\n\nBefore the Industrial Revolution, fitness was defined as the capacity to carry out the day's activities without undue fatigue or lethargy. However, with automation and changes in lifestyles, physical fitness is now considered a measure of the body's ability to function efficiently and effectively in work and leisure activities, to be healthy, to resist hypokinetic diseases, improve immune system and to meet emergency situations.[",
+      "category": "FOOD",
+      "title": "food for engergy",
+      "AutherName": "sanket",
+      "body": "Today, the majority of the food energy required by the ever-increasing population of the world is supplied by the industrial food industry, which produces food with intensive agriculture and distributes it through complex food processing and food distribution systems. This system of conventional agriculture relies heavily on fossil fuels, which means that the food and agricultural system is one of the major contributors to climate change, accountable for as much as 37% of total greenhouse gas emissions.[1] Addressing the carbon intensity of the food system and food waste are important mitigation measures in the global response to climate change.",
       "likes": 0,
-      "id": 10
+      "id": 22
+    },
+    {
+      "category": "TRAVEL",
+      "title": "travelling world",
+      "AutherName": "Samadhan Sawant",
+      "body": "The origin of the word \"travel\" is most likely lost to history. The term \"travel\" may originate from the Old French word travail, which means 'work'.[2] According to the Merriam Webster dictionary, the first known use of the word travel was in the 14th century. It also states that the word comes from Middle English travailen, travelen (which means to torment, labor, strive, journey) and earlier from Old French travailler (which means to work strenuously, toil).",
+      "likes": 0,
+      "id": 23
+    },
+    {
+      "category": "NATURE",
+      "title": "rivers giving life to animals",
+      "AutherName": "sanket",
+      "body": "Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological kingdom Animalia. With few exceptions, animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and go through an ontogenetic stage in which their body consists of a hollow sphere of cells, the blastula, during embryonic development. Over 1.5 million living animal species have been described—of which around 1 million are insects—but it has been estimated there are over 7 million animal species in total. Animals range in length from 8.5 micrometres (0.00033 in) to 33.6 metres (110 ft). They have complex interactions with each other and their environments, forming intricate food webs. The scientific study of animals is known as zoology.",
+      "likes": 0,
+      "id": 24
     },
     {
       "category": "LITERATURE",
-      "title": "literature - need of today",
-      "body": "Further information: Outline of literature and Index of literature articles\n\nThe Adventures of Pinocchio (1883) is a canonical piece of children's literature and one of the best-selling books ever published.[1]\nLiterature broadly is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially prose fiction, drama, and poetry.[2] In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed.[3] Literature is a method of recording, preserving, and transmitting knowledge and entertainment, and can also have a social, psychological, spiritual, or political role.",
+      "title": "knowledge source",
+      "AutherName": "sachin",
+      "body": "Literature, as an art form, can also include works in various non-fiction genres, such as biography, diaries, memoir, letters, and the essay. Within its broad definition, literature includes non-fictional books, articles or other printed information on a particular subject.[4][5]",
       "likes": 0,
+      "id": 25
+    },
+    {
+      "category": "FOOD",
+      "title": "asdfg",
+      "AutherName": "asdfgh",
+      "body": "asdfghjk",
+      "likes": 0,
+      "blogposttime": "2022-2-24 1:7:5",
+      "id": 26
+    },
+    {
+      "category": "TECHNOLOGY",
+      "title": "asdfgh",
+      "AutherName": "asdfghjkl",
+      "body": "zxcvbnm",
+      "likes": 0,
+      "blogposttime": "2022-2-24 3:0:1",
+      "id": 27
+    },
+    {
+      "category": "FOOD",
+      "title": "asdf",
+      "AutherName": "asdfg",
+      "body": "asdfghjklasdfgghj",
+      "likes": 0,
+      "blogposttime": "2022-2-24 15:28:55",
+      "id": 28
+    },
+    {
+      "category": "FOOD",
+      "title": "asdfg",
+      "AutherName": "sachin",
+      "body": "asgdhffjgkggkjghffhffff",
+      "likes": 0,
+      "blogposttime": "2022-2-24 17:9:46",
+      "id": 29
+    },
+    {
+      "category": "TRAVEL",
+      "title": "travelling is happiness",
+      "AutherName": "Samadhan Sawant",
+      "body": "Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.[1] Travel can also include relatively short stays between successive movements, as in the case of tourism.",
+      "likes": 0,
+      "blogposttime": "2022-2-24 19:42:7",
+      "id": 30
+    }
+  ],
+  "commentusers": [
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "sameena",
+      "email": "sameena@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "sameena",
+      "email": "sameena@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "vrishali",
+      "email": "vrishali123@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "vrishali",
+      "email": "vrishali123@gmail.com",
+      "commenttext": "beautiful",
+      "id": 9
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "fantastic",
+      "id": 10
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "wonderful",
       "id": 11
     },
     {
-      "category": "Select Category",
-      "title": "tech lead",
-      "AutherName": "samadhan ",
-      "body": "Technology (\"science of craft\", from Greek τέχνη, techne, \"art, skill, cunning of hand\"; and -λογία, -logia[2]) is the sum of any techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation. Technology can be the knowledge of techniques, processes, and the like, or it can be embedded in machines to allow for operation without detailed knowledge of their workings. Systems (e.g. machines) applying technology by taking an input, changing it according to the system's use, and then producing an outcome are referred to as technology systems or technological systems.",
-      "likes": 0,
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "gorgeous",
       "id": 12
     },
     {
-      "category": "FOOD",
-      "title": "food- importance",
-      "AutherName": "Samadhan Sawant",
-      "body": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms, often evolved to fill a specific ecological niche within specific geographical contexts.",
-      "likes": 0,
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "classy",
       "id": 13
     },
     {
-      "category": "FOOD",
-      "title": "Healthy Food",
-      "AutherName": "Sameena",
-      "body": "Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms, often evolved to fill a specific ecological niche within specific geographical contexts.",
-      "likes": 0,
+      "name": "vrishali",
+      "email": "vrishali123@gmail.com",
+      "commenttext": "fabulous",
       "id": 14
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "excellent",
+      "id": 15
+    },
+    {
+      "name": "samiksha",
+      "email": "samiksha123@gmail.com",
+      "commenttext": "blasting",
+      "id": 16
+    },
+    {
+      "name": "samiksha",
+      "email": "samiksha123@gmail.com",
+      "commenttext": "worst",
+      "id": 17
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "best",
+      "id": 18
+    },
+    {
+      "name": "sameena",
+      "email": "sameena@gmail.com",
+      "commenttext": "bad",
+      "id": 19
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "sad",
+      "id": 20
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "sad",
+      "id": 21
+    },
+    {
+      "name": "samiksha",
+      "email": "samiksha123@gmail.com",
+      "commenttext": "worst ever made",
+      "id": 22
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "good",
+      "id": 23
+    },
+    {
+      "name": "sameena",
+      "email": "sameena@gmail.com",
+      "commenttext": "good",
+      "id": 24
+    },
+    {
+      "name": "samiksha",
+      "email": "samiksha123@gmail.com",
+      "commenttext": "1234",
+      "id": 25
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "1234",
+      "id": 26
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "1234",
+      "id": 27
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "ds.mcvd svms mv mdv",
+      "id": 28
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "wonderful",
+      "id": 29
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "blasting",
+      "id": 30
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "marvolous",
+      "id": 31
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "asdff",
+      "id": 32
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "asdfghjkl",
+      "id": 33
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "beautiful",
+      "id": 34
+    },
+    {
+      "name": "samadhan",
+      "email": "samadhan123@gmail.com",
+      "commenttext": "asdfgh",
+      "id": 35
+    },
+    {
+      "name": "sanket",
+      "email": "sanket1234@gmail.com",
+      "commenttext": "wonderful",
+      "id": 36
+    },
+    {
+      "name": "sanket",
+      "email": "sanket124@gmail.com",
+      "commenttext": "asdfghjlj",
+      "id": 37
     }
   ],
-  "blogs": []
+  "Concerns": [
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "NATURE",
+      "concern": "do neeful",
+      "id": 1
+    },
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "FOOD",
+      "concern": "do it",
+      "id": 2
+    },
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "TRAVEL",
+      "concern": "plzz delete my blog",
+      "id": 3
+    },
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "TRAVEL",
+      "concern": "plzzz do it neeful",
+      "id": 4
+    },
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "TRAVEL",
+      "concern": "asdfghjkl",
+      "id": 5
+    },
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "NATURE",
+      "concern": "asdfghj",
+      "id": 6
+    },
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "FITNESS",
+      "concern": "plzz do needful",
+      "id": 7
+    },
+    {
+      "FirstName": "samadhan",
+      "SurName": "sawant",
+      "MailId": "sam@gmail.com",
+      "category": "NATURE",
+      "concern": "plzz do needful",
+      "id": 8
+    },
+    {
+      "FirstName": "sach",
+      "SurName": "rane",
+      "MailId": "sach@gmail.com",
+      "category": "TECHNOLOGY",
+      "concern": "as",
+      "id": 9
+    }
+  ]
 }
