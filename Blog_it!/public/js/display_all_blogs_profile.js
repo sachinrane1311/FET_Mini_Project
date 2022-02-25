@@ -23,7 +23,7 @@ const renderPosts = async (term) => {
               <div class="small text-muted">${post.blogposttime}</div>
               <h2 class="card-title">${post.title}</h2>
               <p class="card-text">${post.body.slice(0, 200)}...</p>
-              <a class="btn btn-primary" href="" data-bs-toggle="modal" data-bs-target="#signupModal">Read more →</a>
+              <a class="btn btn-primary" href="../html/read_Blog">Read more →</a>
               <h5 class="card-title">${post.AutherName}</h5>
               <span class="badge badge-cate">
                   <i class="fas fa-thumbs-up" aria-hidden="true"></i>${post.likes}
