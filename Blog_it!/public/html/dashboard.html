@@ -17,11 +17,11 @@
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script> -->
 
-        <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 
 </head>
 
-<body>
+<body style="background-color:blanchedalmond;">
     <!-- Navbar starts here >> Logo   Name     search    Sign In  -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
@@ -30,71 +30,56 @@
                 <img src="../images/colorlogo.svg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                 BLOGSPOT</a>
 
-            <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#signinModal">
-                SIGN OUT</button>
+            <a type="button" class="btn btn-outline-warning" href="./home.html">
+                SIGN OUT</a>
         </div>
         </div>
     </nav>
     <!-- Navbar ends here   -->
 
     <!-- Editor Section start  -->
-    <section class="">
-        <h1 class="shadow-sm">TEXT EDITOR</h1>
-        <div class="flex-box">
-            <div class="row">
-                <div class="col">
-                    <!-- Adding different buttons for
-                         different functionality-->
-                    <!--onclick attribute is added to give 
-                        button a work to do when it is clicked-->
-                    <button type="button" onclick="f1()" class=" shadow-sm btn btn-outline-secondary"
-                        data-toggle="tooltip" data-placement="top" title="Bold Text">
-                        Bold</button>
-                    <button type="button" onclick="f2()" class="shadow-sm btn btn-outline-success" data-toggle="tooltip"
-                        data-placement="top" title="Italic Text">
-                        Italic</button>
-
-                    <button type="button" onclick="f3()" class=" shadow-sm btn btn-outline-primary"
-                        data-toggle="tooltip" data-placement="top" title="Left Align">
-                        <i class="fas fa-align-left"></i></button>
-
-                    <button type="button" onclick="f4()" class="btn shadow-sm btn-outline-secondary"
-                        data-toggle="tooltip" data-placement="top" title="Center Align">
-                        <i class="fas fa-align-center"></i></button>
-                    <button type="button" onclick="f5()" class="btn shadow-sm btn-outline-primary" data-toggle="tooltip"
-                        data-placement="top" title="Right Align">
-                        <i class="fas fa-align-right"></i></button>
-                    <button type="button" onclick="f6()" class="btn shadow-sm btn-outline-secondary"
-                        data-toggle="tooltip" data-placement="top" title="Uppercase Text">
-                        Upper Case</button>
-                    <button type="button" onclick="f7()" class="btn shadow-sm btn-outline-primary" data-toggle="tooltip"
-                        data-placement="top" title="Lowercase Text">
-                        Lower Case</button>
-                    <button type="button" onclick="f8()" class="btn shadow-sm btn-outline-primary" data-toggle="tooltip"
-                        data-placement="top" title="Capitalize Text">
-                        Capitalize</button>
-                    <button type="button" onclick="f9()" class="btn shadow-sm btn-outline-primary side"
-                        data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                        Clear Text</button>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-3 col-sm-3">
-            </div>
-            <div class="col-md-6 col-sm-9">
-                <div class="flex-box">
-                    <textarea id="textarea1" class="input shadow" name="name" rows="15" cols="100"
-                        placeholder="Your text here ">
-                    </textarea>
-                </div>
-            </div>
-            <div class="col-md-3">
-            </div>
-        </div>
-    </section>
-
+  
+        <h1>Create a New Blog</h1>
+      
+        <form>
+          <select class="form-select" aria-label="Default select example" name="Category" required placeholder="Blog Category">
+              <option selected>Select Category</option>
+              <option value="TECHNOLOGY">TECHNOLOGY</option>
+              <option value="FOOD">FOOD</option>
+              <option value="TRAVEL">TRAVEL</option>
+              <option value="NATURE">NATURE</option>
+              <option value="FITNESS">FITNESS</option>
+              <option value="LITERATURE">LITERATURE</option>
+              <option value="OTHERS">OTHERS</option>
+      
+            </select>
+          <input type="text" name="title" required placeholder="Blog title">
+          <input type="text" name="AutherName" required placeholder="Auther Name">
+          <textarea name="body" required placeholder="Blog body"></textarea>
+      
+          <input type="hidden" id="currentDateTime" name="blogposttime"required placeholder="Timestamp is added automatically" >
+          
+      <br><br>
+      <script>
+      
+      function myFunction() {
+       
+      
+        var today = new Date();
+      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var dateTime = date+' '+time;
+        document.getElementById("currentDateTime").value = dateTime;
+      }
+      </script>
+      
+      
+           <div class="popup_box">
+          <button onclick="myFunction()" class="btn">Create</button>
+          </div>
+        </form>
+      
+        <script src="../js/write_blog.js"></script>
     <!-- Editor Section end  -->
 
     <!-- footer starts here  -->
@@ -105,8 +90,6 @@
 
     <!-- footer ends here  -->
 
-
-    <script src="../js/editor.js"></script>
 
 
     <!-- Bootstrap 5 CDN via jsDelivr

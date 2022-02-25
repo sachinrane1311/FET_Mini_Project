@@ -35,10 +35,6 @@
                 BLOGSPOT</a>
 
             <div class="mx-2">
-                <button type="button" class="btn btn-outline-light btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#signinModal">
-                    Write Your Blog</button>
-
                 <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal"
                     data-bs-target="#signinModal">
                     SIGN IN</button>
@@ -182,37 +178,54 @@
                 </div>
                 <!-- Side widgets-->
                 <div class="col-lg-4">
-                    <!-- Search widget-->
                     <div class="card mb-4">
-                        <div class="card-header">Search</div>
-                        <div class="card-body">
-                            <div class="input-group">
-                                <form class="search d-flex">
-                                    <input class="form-control" type="text" placeholder="Enter search term..."
-                                        aria-describedby="button-search" />
-                                    <button class="btn btn-primary" id="button-search" type="submit">Go!</button>
-                                </form>
+
+                        <!-- Write blog widget-->
+                        <div class="card mb-4 d-flex">
+                            <!-- <div class="card-header">Write blog</div> -->
+                            <div class="card-body">
+                                <div class="input-group align-items-center">
+                                    <form class="align-items-center" id="signinForm" role="form">
+                                        <a class="btn btn-success" id="button-search" type="submit">Write Your Blog</a>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Categories widget-->
-                    <div class="card mb-4">
-                        <div class="card-header">Categories</div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Technology</a></li>
-                                        <li><a href="#!">Food</a></li>
-                                        <li><a href="#!">Travel</a></li>
-                                    </ul>
+
+                        <!-- Search widget-->
+                        <div class="card mb-4">
+                            <!-- <div class="card-header">Search</div> -->
+                            <div class="card-body">
+                                <div class="input-group">
+                                    <form class="search d-flex">
+                                        <input class="form-control" type="text" placeholder="Enter search term..."
+                                            aria-describedby="button-search" />
+                                        <button class="btn btn-outline-light" id="button-search"
+                                            type="submit">Go!</button>
+                                    </form>
                                 </div>
-                                <div class="col-sm-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Fashion</a></li>
-                                        <li><a href="#!">Gaming</a></li>
-                                        <li><a href="#!">Music</a></li>
-                                    </ul>
+                            </div>
+                        </div>
+
+                        <!-- Categories widget-->
+                        <div class="card mb-4">
+                            <div class="card-header">Categories</div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li><a href="#!">Technology</a></li>
+                                            <li><a href="#!">Food</a></li>
+                                            <li><a href="#!">Travel</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li><a href="#!">Fashion</a></li>
+                                            <li><a href="#!">Gaming</a></li>
+                                            <li><a href="#!">Music</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>

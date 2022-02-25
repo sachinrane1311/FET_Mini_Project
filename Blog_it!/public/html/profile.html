@@ -17,8 +17,12 @@
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script> -->
 
-        <link rel="stylesheet" href="../css/styles.css">
-
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        body {
+            background-image: url("https://thefoxwp.com/wp-content/uploads/2015/02/slider_bg12.jpg");
+        }
+    </style>
 </head>
 
 <body>
@@ -30,31 +34,216 @@
                 <img src="../images/colorlogo.svg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                 BLOGSPOT</a>
 
-            <form class="form-inline col-lg-auto d-flex mx-xl-5">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-                <button class="btn btn-outline-light btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
 
-                <div class="mx-4 d-flex">
-                    <a type="button" class="btn btn-outline-light btn-primary" href="./dashboard.html">
-                        Write Your Blog</a>
-
-                        <a type="button" class="btn btn-outline-warning" href="./home.html">
-                            SIGN OUT</a>
-
-                </div>
+            <div class="mx-4">
+                <a type="button" class="btn btn-outline-danger" href="./home.html">
+                    SIGN OUT</a>
+            </div>
 
         </div>
     </nav>
     <!-- Navbar ends here   -->
 
-    <!-- Profile Section start  -->
+    <script src="../js/signin.js"></script>
+    <!-- Signin Modal start -->
+    <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
-      <div class="blogs">
-        <!-- inject blogs here from js -->
-      </div>
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signinModalLabel">SIGN IN</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
 
-    <!-- Profile Section end  -->
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form id="signinForm" name="signin" role="form">
+                        <div class="form-group">
+                            <label for="email1">E-Mail ID </label>
+                            <input type="email" class="form-control" id="email1" name="email1"
+                                aria-describedby="emailHelp">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="Password1">Password </label>
+                            <input type="password" class="form-control" id="password1" name="password1">
+                        </div><br>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">LOGIN</button>
+                        </div>
+
+                        <p>New User? <a href="" data-bs-toggle="modal" data-bs-target="#signupModal"> Register </a> here
+                        </p>
+                    </form>
+                    <div class="mx-4 d-flex">
+                        <a type="button" class="btn btn-outline-light btn-primary" href="./dashboard.html">
+                            Write Your Blog</a>
+
+                        <a type="button" class="btn btn-outline-warning" href="./home.html">
+                            SIGN OUT</a>
+
+                    </div>
+
+                </div>
+
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div> -->
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Signin modal end  -->
+
+    <script src="../js/signup.js"></script>
+    <!-- Signup modal start -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">SIGN UP</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form id="signupForm_home" name="signup" role="form">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" id="fname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" id="lname">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="email3">Email address</label>
+                            <input type="email" class="form-control" id="email3" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div><br>
+                        <div class="form-group">
+                            <label for="password3">Password</label>
+                            <input type="password" class="form-control" id="password3">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="cpassword3">Confirm Password</label>
+                            <input type="password" class="form-control" id="cpassword3">
+                        </div><br>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+
+                        <p>Already have an account? <a href="" data-bs-toggle="modal" data-bs-target="#signinModal">
+                                Login </a>
+                            here. </p>
+
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          </div> -->
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Signup modal end -->
+
+    <!-- Home Section start  -->
+    <div class="section">
+        <header class="bg-secondary border-bottom mb-4">
+            <div class="container">
+                <div class="text-center my-2">
+                    <h3 class="fw-bolder">Welcome Blogger!!!</h3>
+                </div>
+            </div>
+        </header>
+
+        <div class="container bg-secondary py-3">
+            <div class="row">
+                <!-- Blog entries-->
+                <div class="col-lg-8">
+                    <!-- Featured blog post-->
+                    <!-- rendering div start -->
+                    <div class="blogs" id="blogs">
+                        <!-- inject blogs here from js -->
+                    </div>
+                    <!-- rendering div end -->
+                </div>
+
+
+
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+
+                    <!-- Write your blog widget-->
+                    <div class="card mb-4">
+                        <!-- <div class="card-header">Write your blog</div> -->
+                        <div class="card-body">
+                            <div class="input-group">
+                                <a type="button" class="btn btn-outline-dark btn-success" href="./dashboard.html">
+                                    Write Your Blog</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Search widget-->
+                    <div class="card mb-4">
+                        <!-- <div class="card-header">Search</div> -->
+                        <div class="card-body">
+                            <div class="input-group">
+                                <form class="search d-flex">
+                                    <input class="form-control" type="text" placeholder="Enter search term..."
+                                        aria-describedby="button-search" />
+                                    <button class="btn btn-warning" id="button-search" type="submit">Go!</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Categories</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">Technology</a></li>
+                                        <li><a href="#!">Food</a></li>
+                                        <li><a href="#!">Travel</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="#!">Fashion</a></li>
+                                        <li><a href="#!">Gaming</a></li>
+                                        <li><a href="#!">Music</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home Section end  -->
 
     <!-- footer starts here  -->
 
@@ -65,7 +254,7 @@
     <!-- footer ends here  -->
 
 
-    <script src="../js/allblog1.js"></script>
+    <script src="../js/display_all_blogs.js"></script>
 
 
     <!-- Bootstrap 5 CDN via jsDelivr

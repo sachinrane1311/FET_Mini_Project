@@ -1,9 +1,23 @@
+const form = document.querySelector('form');
 
-window.addEventListener('DOMContentLoaded', () => renderPosts());
+const createPost = async (e) => {
+  e.preventDefault();
 
-$(document).ready(function () {
-    $('.post').click(function () {
-        $('.popup_box').css("display", "none");
-        alert("blog created successfully!");
-    });
-});
+  const doc = {
+    category: form.Category.value,
+    title: form.title.value,
+    AutherName: form.AutherName.value,
+    body: form.body.value,
+    likes: 0,
+  }
+
+  await fetch('http://localhost:3000/posts', {
+    method: 'POST',
+    body: JSON.stringify(doc),
+    headers: { 'Content-Type': 'application/json' }
+  })
+
+  window.location.replace('/blogs.html')
+}
+
+form.addEventListener('submit', createPost);
